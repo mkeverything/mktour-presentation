@@ -4,6 +4,8 @@ title: mktour - черновик
 info: |
   минимальный каркас презентации mktour для настройки стиля
 mdc: true
+fonts:
+  provider: none
 ---
 
 # mktour

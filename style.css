@@ -1,0 +1,24 @@
+@font-face {
+  font-family: 'TurboPascal';
+  src: url('/fonts/TurboPascalFont.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'UbuntuMono';
+  src: url('/fonts/UbuntuMono-Regular.ttf') format('truetype');
+  font-display: swap;
+}
+
+.slidev-layout {
+  font-family: 'UbuntuMono', monospace !important;
+}
+
+.slidev-layout h1,
+.slidev-layout h2,
+.slidev-layout h3,
+.slidev-layout h4 {
+  font-family: 'TurboPascal', monospace !important;
+  font-weight: 400;
+  letter-spacing: 0.01em;
+}
