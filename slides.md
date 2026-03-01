@@ -102,8 +102,9 @@ layout: section
 ## у всех хуево, у нас быстро и просто
 
 ---
-layout: iframe-right
+layout: iframe
 url: https://challonge.com/
+scale: 0.7
 ---
 
 # берем обычный сайт
@@ -158,6 +159,7 @@ live demo (slidev):
 ---
 layout: iframe
 url: https://beta.mktour.org/
+scale: 0.7
 ---
 
 # и потом:
@@ -218,6 +220,7 @@ layout: section
 ---
 layout: iframe-left
 url: https://beta.mktour.org/
+scale: 0.7
 ---
 
 # кульминация раздела
@@ -310,5 +313,5 @@ class: text-center
 # финал
 ## спасибо
 
-<div class="mk-kicker mt-6">mktour.app</div>
+<div class="mk-kicker mt-6">mktour.org</div>
 
