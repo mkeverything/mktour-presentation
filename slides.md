@@ -1,127 +1,37 @@
 ---
 theme: default
-title: mktour - черновик
-info: |
-  минимальный каркас презентации mktour для настройки стиля
+title: mktour
+info: презентация сайта mktour.org
+date: 03/02/2026
 mdc: true
 fonts:
   provider: none
+layout: section
 ---
 
-# mktour
-
-турнирные сайты без боли
+# mktour_
 
 ---
 layout: section
 ---
 
 # раздел 1
-## у всех хуево, у нас быстро и просто
+## у всех хуёво, а у нас — быстро и просто
 
 ---
-
-# тест на обычном сайте турниров
-
-создаем турнир на 20 человек и пытаемся провести его вживую.
-
-сценарий:
-
-- регистрация турнира
-- добавление участников
-- запуск раунда
-- внесение результатов
-
+class: mk-live-slide
 ---
 
-# mktour в том же сценарии
-
-раз  
-два  
-три  
-четыре  
-
-вуаля
-
----
-layout: section
----
-
-# раздел 2
-## mktour как социальная сеть
-
----
-
-# кульминация
-
-игрок вносит свой результат сам.
-
----
-layout: section
----
-
-# раздел 3
-## с шариком в руках
-
----
-
-# цена вопроса
-
-показываем прайсы challenge и swiss.
-
-рубрика: "прайс ревил пати"  
-три, два, один - лопаем шарик.  
-бесплатно.
-
----
-layout: section
----
-
-# раздел 4
-## спасибо марку
-
----
-
-# финал
-
-наш швейцарский коллега марк разработал новый алгоритм швейцарских турниров.
-
-из-за слов "ассимиляция", "полиномиальный", "мэтчинг" речь не озвучиваем.
-
-спасибо.
-
-### шахматные турниры просто и быстро
-
-<div class="mk-kicker">черновая структура - slidev</div>
-
----
-layout: section
----
-
-# раздел 1
-## у всех хуево, у нас быстро и просто
-
----
-layout: iframe
-url: https://challonge.com/
-scale: 0.7
----
-
-# берем обычный сайт
-
-тест: создать турнир на **20 человек** и провести его прямо сейчас.
-
-<div class="mk-step-list">
-  <div v-click>1) регистрация турнира</div>
-  <div v-click>2) участники</div>
-  <div v-click>3) сетка / пары</div>
-  <div v-click>4) фиксация результатов</div>
-</div>
+## берём обычный сайт
+<ScreenShareEmbed
+  source-label="challonge"
+  hint="рекомендуется выбрать window "
+/>
 
 <!--
 live demo (slidev):
-- встроенный вариант: layout iframe-right / iframe / iframe-left.
-- если сайт блокирует iframe (csp/x-frame-options), переключиться на реальное окно chrome.
+- встроенный вариант через ScreenShareEmbed.
+- логин и интерактив — в отдельной вкладке/окне Chrome, в слайде идёт live-превью.
 - управление слайдами вести из presenter mode: http://localhost:3030/presenter
 -->
 
@@ -133,7 +43,7 @@ live demo (slidev):
 
 <div class="mk-quote" v-click>
 работают примерно одинаково. <br>
-одинаково (хуево).
+одинаково хуёво.
 </div>
 
 ---
@@ -144,35 +54,29 @@ live demo (slidev):
   <div class="mk-card">
     <h3>что происходит</h3>
     <ul>
-      <li v-click>длинный путь до старта</li>
-      <li v-click>ручные действия в каждом раунде</li>
-      <li v-click>ошибки при вводе и пересчете</li>
-      <li v-click>задержки для игроков</li>
+      <li v-click>куча шагов, прежде чем вообще начать</li>
+      <li v-click>каждый раунд — ручная возня</li>
+      <li v-click>ошибки при вводе и пересчёте</li>
+      <li v-click>игроки сидят и ждут</li>
     </ul>
   </div>
   <div class="mk-card">
     <h3>ощущение</h3>
-    <p v-click>организатор борется с интерфейсом, а не проводит турнир.</p>
+    <p v-click>организатор воюет с интерфейсом вместо того, чтобы проводить турнир.</p>
   </div>
 </div>
 
 ---
-layout: iframe
-url: https://beta.mktour.org/
-scale: 0.7
+class: mk-live-slide
 ---
 
-# и потом:
 ## mktour
 
-<div class="mk-countdown">
-  <span v-click>раз</span>
-  <span v-click>два</span>
-  <span v-click>три</span>
-  <span v-click>четыре</span>
-</div>
 
-<div class="mk-hero" v-click>вуаля</div>
+<ScreenShareEmbed
+  source-label="mktour.org"
+  hint="Рекомендуется выбрать Window"
+/>
 
 ---
 layout: center
@@ -202,36 +106,33 @@ layout: section
   <div class="mk-card">
     <h3>игрок</h3>
     <ul>
-      <li v-click>профиль и история</li>
-      <li v-click>связи с клубами</li>
-      <li v-click>репутация через активность</li>
+      <li v-click>свой профиль и вся история партий</li>
+      <li v-click>привязка к клубам</li>
+      <li v-click>репутация растёт с каждой игрой</li>
     </ul>
   </div>
   <div class="mk-card">
     <h3>клуб</h3>
     <ul>
-      <li v-click>сообщество вокруг событий</li>
-      <li v-click>повторяемость турниров</li>
-      <li v-click>возврат участников</li>
+      <li v-click>живое сообщество вокруг событий</li>
+      <li v-click>турниры проводятся регулярно</li>
+      <li v-click>люди возвращаются снова</li>
     </ul>
   </div>
 </div>
 
 ---
-layout: iframe-left
-url: https://beta.mktour.org/
-scale: 0.7
+class: mk-live-slide
 ---
 
-# кульминация раздела
+# кульминация раздела (live)
 
-игрок вносит свой результат сам.
+<p class="mk-live-caption">живой сценарий: игрок сам вносит свой результат.</p>
 
-<div class="mk-step-list">
-  <div v-click>без посредников</div>
-  <div v-click>быстрее закрываются раунды</div>
-  <div v-click>организатор держит темп</div>
-</div>
+<ScreenShareEmbed
+  source-label="mktour результат игрока"
+  hint="Покажи окно Chrome со страницей ввода результата и выбери его в Start sharing."
+/>
 
 ---
 layout: section
@@ -247,16 +148,16 @@ layout: section
 <div class="grid grid-cols-2 gap-8 mt-8">
   <div class="mk-card">
     <h3>challenge</h3>
-    <p v-click>понятный вход для быстрых турниров</p>
+    <p v-click>простой вход — собрались, сыграли, разошлись</p>
   </div>
   <div class="mk-card">
     <h3>swiss</h3>
-    <p v-click>стабильный формат для регулярных серий</p>
+    <p v-click>надёжный формат для тех, кто играет каждую неделю</p>
   </div>
 </div>
 
 <p class="mt-8" v-click>
-объясняем прайсы двух форматов и почему это выгодно клубу.
+рассказываем, сколько стоят оба формата и почему клубу это выгодно.
 </p>
 
 ---
@@ -265,7 +166,7 @@ class: text-center
 ---
 
 # рубрика
-## "прайс ревил пати"
+## «прайс ревил пати»
 
 <div class="mk-countdown">
   <span v-click>три</span>
@@ -295,13 +196,13 @@ layout: section
 
 # наш швейцарский коллега марк
 
-разработал новый алгоритм швейцарских турниров <br>
-и написал по нему речь.
+он разработал новый алгоритм для швейцарских турниров <br>
+и даже написал про него целую речь.
 
 <div class="mk-card mt-8" v-click>
   <p>
-    но из-за слов "ассимиляция", "полиномиальный", "мэтчинг"
-    речь сегодня не озвучиваем.
+    но там слова «ассимиляция», «полиномиальный», «мэтчинг» —
+    так что речь сегодня не озвучиваем.
   </p>
 </div>
 
@@ -314,4 +215,3 @@ class: text-center
 ## спасибо
 
 <div class="mk-kicker mt-6">mktour.org</div>
-

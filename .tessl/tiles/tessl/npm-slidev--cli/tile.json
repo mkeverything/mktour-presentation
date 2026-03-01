@@ -1,0 +1,7 @@
+{
+  "name": "tessl/npm-slidev--cli",
+  "version": "52.1.0",
+  "docs": "docs/index.md",
+  "describes": "pkg:npm/@slidev/cli@52.1.0",
+  "summary": "Modern presentation framework and CLI tool that transforms Markdown files into interactive, web-based slide presentations with built-in development server, export capabilities, and Vue.js integration"
+}
