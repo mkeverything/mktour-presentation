@@ -9,23 +9,36 @@ fonts:
 layout: section
 ---
 
-# mktour_
+# mktour\_
 
 ---
 layout: section
 ---
 
 # раздел 1
-## у всех хуёво, а у нас — быстро и просто
+
+## у всех \*, а у нас — \*
+
+---
+
+# в интернете таких платформ около 45
+
+мы попробовали все.
+
+<div class="mk-quote" v-click>
+работают примерно одинаково. <br>
+</div>
 
 ---
 class: mk-live-slide
 ---
 
+
 ## берём обычный сайт
+
 <ScreenShareEmbed
   source-label="challonge"
-  hint="рекомендуется выбрать window "
+  hint="рекомендуется выбрать window"
 />
 
 <!--
@@ -36,34 +49,16 @@ live demo (slidev):
 -->
 
 ---
-
-# в интернете таких платформ около 45
-
-мы попробовали почти все.
-
-<div class="mk-quote" v-click>
-работают примерно одинаково. <br>
-одинаково хуёво.
-</div>
-
+layout: center
 ---
 
-# сценка: 20 участников
-
-<div class="grid grid-cols-2 gap-8 mt-8">
+<div>
   <div class="mk-card">
-    <h3>что происходит</h3>
+    <h1>вывод:       <span v-click>*</span></h1>
     <ul>
-      <li v-click>куча шагов, прежде чем вообще начать</li>
-      <li v-click>каждый раунд — ручная возня</li>
-      <li v-click>ошибки при вводе и пересчёте</li>
-      <li v-click>игроки сидят и ждут</li>
     </ul>
   </div>
-  <div class="mk-card">
-    <h3>ощущение</h3>
-    <p v-click>организатор воюет с интерфейсом вместо того, чтобы проводить турнир.</p>
-  </div>
+
 </div>
 
 ---
@@ -72,31 +67,20 @@ class: mk-live-slide
 
 ## mktour
 
-
 <ScreenShareEmbed
   source-label="mktour.org"
   hint="Рекомендуется выбрать Window"
 />
 
----
-layout: center
-class: text-center
----
-
-# mktour вживую
-
-<!--
-если mktour.app недоступен или нужен staging:
-- заменить url на локальный/стейдж адрес.
-- при блокировке iframe перейти в отдельное окно chrome.
--->
+<p class="mk-live-corner-note" v-click>4 клика</p>
 
 ---
 layout: section
 ---
 
 # раздел 2
-## mktour как социальная сеть
+
+## социальная сеть
 
 ---
 
@@ -139,6 +123,7 @@ layout: section
 ---
 
 # раздел 3
+
 ## с шариком в руках
 
 ---
@@ -166,6 +151,7 @@ class: text-center
 ---
 
 # рубрика
+
 ## «прайс ревил пати»
 
 <div class="mk-countdown">
@@ -190,6 +176,7 @@ layout: section
 ---
 
 # раздел 4
+
 ## спасибо марку
 
 ---
@@ -246,6 +233,7 @@ class: text-center
 ---
 
 # финал
+
 ## спасибо
 
 <div class="mk-kicker mt-6">mktour.org</div>

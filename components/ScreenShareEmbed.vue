@@ -75,6 +75,23 @@ onBeforeUnmount(() => {
 
 <template>
   <div class="mk-share-wrap">
+    <div class="mk-share-controls-top">
+      <button
+        class="mk-share-btn"
+        :disabled="isStarting || isSharing"
+        @click="startSharing"
+      >
+        {{ isStarting ? 'Starting...' : 'Start sharing' }}
+      </button>
+      <button
+        class="mk-share-btn mk-share-btn-stop"
+        :disabled="!isSharing"
+        @click="stopSharing"
+      >
+        Stop sharing
+      </button>
+    </div>
+
     <div class="mk-share-stage">
       <video
         ref="videoEl"
@@ -83,23 +100,6 @@ onBeforeUnmount(() => {
         muted
         playsinline
       />
-
-      <div class="mk-share-overlay-controls">
-        <button
-          class="mk-share-btn"
-          :disabled="isStarting || isSharing"
-          @click="startSharing"
-        >
-          {{ isStarting ? 'Starting...' : 'Start sharing' }}
-        </button>
-        <button
-          class="mk-share-btn mk-share-btn-stop"
-          :disabled="!isSharing"
-          @click="stopSharing"
-        >
-          Stop sharing
-        </button>
-      </div>
       <div v-if="!isSharing" class="mk-share-placeholder">
         <p class="mk-share-placeholder-title">
           Live demo source: <strong>{{ sourceLabel }}</strong>
