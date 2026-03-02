@@ -80,29 +80,29 @@ layout: section
 
 # раздел 2
 
-## социальная сеть
+## не просто турнирная сетка
 
 ---
+class: mk-two-col-mobile
+---
 
-# не только турнирная сетка
+<div class="mk-two-col-left">
+<h2>мктур — <span v-click>для шахматистов</span></h2>
 
-<div class="grid grid-cols-2 gap-8 mt-8">
-  <div class="mk-card">
-    <h3>игрок</h3>
-    <ul>
-      <li v-click>свой профиль и вся история партий</li>
-      <li v-click>привязка к клубам</li>
-      <li v-click>репутация растёт с каждой игрой</li>
-    </ul>
-  </div>
-  <div class="mk-card">
-    <h3>клуб</h3>
-    <ul>
-      <li v-click>живое сообщество вокруг событий</li>
-      <li v-click>турниры проводятся регулярно</li>
-      <li v-click>люди возвращаются снова</li>
-    </ul>
-  </div>
+<ul>
+  <li v-click>свой профиль и вся история турниров</li>
+  <li v-click>автоматический рассчёт рейтингов</li>
+  <li v-click>поиск других клубов</li>
+  <li v-click>результаты видно в реальном времени</li>
+  <li v-click>статистика личных встреч с другими</li>
+</ul>
+</div>
+
+<div class="mk-mobile-frame" v-click>
+  <iframe
+    src="https://beta.mktour.org/tournaments/X43oH1gC"
+    title="mktour турнир (мобильная версия)"
+  />
 </div>
 
 ---
