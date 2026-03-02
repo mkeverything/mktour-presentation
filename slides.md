@@ -83,6 +83,17 @@ layout: section
 ## не просто турнирная сетка
 
 ---
+class: mk-live-slide
+---
+
+## мктур — <span v-click>для клубов</span>
+<ScreenShareEmbed
+  source-label="mktour.org"
+  hint="Рекомендуется выбрать Window"
+/>
+
+
+---
 class: mk-two-col-mobile
 ---
 
@@ -105,18 +116,6 @@ class: mk-two-col-mobile
   />
 </div>
 
----
-class: mk-live-slide
----
-
-# кульминация раздела (live)
-
-<p class="mk-live-caption">живой сценарий: игрок сам вносит свой результат.</p>
-
-<ScreenShareEmbed
-  source-label="mktour результат игрока"
-  hint="Покажи окно Chrome со страницей ввода результата и выбери его в Start sharing."
-/>
 
 ---
 layout: section
