@@ -111,7 +111,7 @@ class: mk-two-col-mobile
 
 <div class="mk-mobile-frame" v-click>
   <iframe
-    src="https://beta.mktour.org/tournaments/X43oH1gC"
+    src="https://mktour.org/player/kh3aoK48"
     title="mktour турнир (мобильная версия)"
   />
 </div>
@@ -129,20 +129,24 @@ layout: section
 
 # цена вопроса
 
-<div class="grid grid-cols-2 gap-8 mt-8">
-  <div class="mk-card">
-    <h3>challenge</h3>
-    <p v-click>простой вход — собрались, сыграли, разошлись</p>
-  </div>
-  <div class="mk-card">
-    <h3>swiss</h3>
-    <p v-click>надёжный формат для тех, кто играет каждую неделю</p>
+<div class="mk-price-stage">
+  <img
+    v-click
+    class="mk-price-img mk-price-img-a"
+    src="/challonge pricing.png"
+    alt="Tariffs on Challonge"
+  >
+  <img
+    v-click
+    class="mk-price-img mk-price-img-b"
+    src="/swisssystem pricing.png"
+    alt="Tariffs on Swisssystem"
+  >
+  <div class="mk-price-note" v-click>
+    <div class="mk-price-subnote">все продают примерно то же самое, <br />и у всех одна цена</div>
+    12 $/мес
   </div>
 </div>
-
-<p class="mt-8" v-click>
-рассказываем, сколько стоят оба формата и почему клубу это выгодно.
-</p>
 
 ---
 layout: center
@@ -153,13 +157,6 @@ class: text-center
 
 ## «прайс ревил пати»
 
-<div class="mk-countdown">
-  <span v-click>три</span>
-  <span v-click>два</span>
-  <span v-click>один</span>
-</div>
-
-<div class="mk-hero" v-click>лопаем шарик</div>
 
 ---
 layout: center
@@ -167,8 +164,6 @@ class: text-center
 ---
 
 # бесплатно
-
-<div class="mk-subhero" v-click>аплодисменты</div>
 
 ---
 layout: section
@@ -193,7 +188,6 @@ class: mk-mark-chaos
       <div class="mk-chaos-word">альтерации</div>
       <div class="mk-chaos-word">мэтчинги</div>
       <div class="mk-chaos-word">пейринги</div>
-      <div class="mk-chaos-word">программирование и математика</div>
       <div class="mk-chaos-word">модуль</div>
       <div class="mk-chaos-word">тайпскрипт</div>
       <div class="mk-chaos-word">алгоритм</div>
