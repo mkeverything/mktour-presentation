@@ -179,3 +179,37 @@ body,
   color: #a3a3a3;
   font-size: 0.9rem;
 }
+
+.mk-mark-chaos h1 {
+  margin-top: 0.8rem;
+  margin-bottom: 0.5rem;
+}
+
+.mk-chaos-canvas {
+  width: 100%;
+  height: 72vh;
+  overflow: auto;
+}
+
+.mk-chaos-caption {
+  margin: 0.9rem 0 0.75rem;
+  color: #a3a3a3;
+  font-size: 0.92rem;
+}
+
+.mk-chaos-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.55rem;
+  align-content: start;
+}
+
+.mk-chaos-word {
+  padding: 0.3rem 0.5rem;
+  font-size: 0.92rem;
+  line-height: 1.1;
+  color: #f5f5f5;
+  background: rgb(12 10 9 / 75%);
+  border-radius: 0.3rem;
+  white-space: normal;
+}

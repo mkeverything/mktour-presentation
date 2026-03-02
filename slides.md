@@ -193,18 +193,52 @@ layout: section
 ## спасибо марку
 
 ---
+class: mk-mark-chaos
+---
 
 # наш швейцарский коллега марк
 
+<div v-click>
+  <p class="mk-chaos-caption">использованные марком слова:</p>
+
+  <div class="mk-chaos-canvas">
+    <div class="mk-chaos-grid">
+      <div class="mk-chaos-word">скор брэкет</div>
+      <div class="mk-chaos-word">альтерации</div>
+      <div class="mk-chaos-word">мэтчинги</div>
+      <div class="mk-chaos-word">пейринги</div>
+      <div class="mk-chaos-word">программирование и математика</div>
+      <div class="mk-chaos-word">модуль</div>
+      <div class="mk-chaos-word">тайпскрипт</div>
+      <div class="mk-chaos-word">алгоритм</div>
+      <div class="mk-chaos-word">суперфакториальный</div>
+      <div class="mk-chaos-word">двойной факториал</div>
+      <div class="mk-chaos-word">асимптотика</div>
+      <div class="mk-chaos-word">линейное программирование</div>
+      <div class="mk-chaos-word">лексикографическая задача</div>
+      <div class="mk-chaos-word">взвешенные графы</div>
+      <div class="mk-chaos-word">алгоритм эдмондса</div>
+      <div class="mk-chaos-word">брутфорс</div>
+      <div class="mk-chaos-word">ООМ эрроры</div>
+      <div class="mk-chaos-word">уязвимости</div>
+      <div class="mk-chaos-word">формализация</div>
+      <div class="mk-chaos-word">гомункул</div>
+      <div class="mk-chaos-word">квалити ашшуранс</div>
+      <div class="mk-chaos-word">полиномиальный</div>
+      <div class="mk-chaos-word">теоретическая эквивалентность</div>
+      <div class="mk-chaos-word">препринт</div>
+      <div class="mk-chaos-word">гайдлайн</div>
+    </div>
+  </div>
+</div>
+
+<!--
 он разработал новый алгоритм для швейцарских турниров <br>
 и даже написал про него целую речь.
 
-<div class="mk-card mt-8" v-click>
-  <p>
-    но там слова «ассимиляция», «полиномиальный», «мэтчинг» —
-    так что речь сегодня не озвучиваем.
-  </p>
-</div>
+но там слова «ассимиляция», «полиномиальный», «мэтчинг» —
+так что речь сегодня не озвучиваем.
+-->
 
 ---
 layout: center
