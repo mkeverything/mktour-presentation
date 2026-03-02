@@ -11,6 +11,8 @@ layout: section
 
 # mktour\_
 
+<p class="mk-live-caption">mktour.org</p>
+
 ---
 layout: section
 ---
@@ -80,7 +82,7 @@ layout: section
 
 # раздел 2
 
-## не просто турнирная сетка
+## это для всех 
 
 ---
 class: mk-live-slide
@@ -98,15 +100,7 @@ class: mk-two-col-mobile
 ---
 
 <div class="mk-two-col-left">
-<h2>мктур — <span v-click>для шахматистов</span></h2>
-
-<ul>
-  <li v-click>свой профиль и вся история турниров</li>
-  <li v-click>автоматический рассчёт рейтингов</li>
-  <li v-click>поиск других клубов</li>
-  <li v-click>результаты видно в реальном времени</li>
-  <li v-click>статистика личных встреч с другими</li>
-</ul>
+  <h2>мктур — <span v-click>для шахматистов</span></h2>
 </div>
 
 <div class="mk-mobile-frame" v-click>
@@ -116,7 +110,15 @@ class: mk-two-col-mobile
   />
 </div>
 
+---
+class: mk-live-slide
+---
 
+## мктур — для шахматистов
+<ScreenShareEmbed
+  source-label="mktour.org"
+  hint="Рекомендуется выбрать Window"
+/>
 ---
 layout: section
 ---
@@ -219,6 +221,52 @@ class: mk-mark-chaos
 но там слова «ассимиляция», «полиномиальный», «мэтчинг» —
 так что речь сегодня не озвучиваем.
 -->
+
+
+
+---
+layout: section
+---
+
+# раздел 5
+
+## бонусы
+
+---
+class: mk-bonus-phones
+---
+
+<div class="mk-phone-grid">
+  <div class="mk-phone-cell" v-click>
+    <div class="mk-phone-label">всё под телефоны</div>
+    <div class="mk-phone-frame">
+      <iframe
+        src="https://mktour.org/tournaments/NtkpGIpC"
+        title="турнир под телефоны"
+      />
+    </div>
+  </div>
+
+  <div class="mk-phone-cell" v-click>
+    <div class="mk-phone-label">открытое API</div>
+    <div class="mk-phone-frame">
+      <iframe
+        src="https://mktour.org/api"
+        title="открытое API mktour"
+      />
+    </div>
+  </div>
+
+  <div class="mk-phone-cell" v-click>
+    <div class="mk-phone-label">прозрачность</div>
+    <div class="mk-phone-frame">
+      <iframe
+        src="https://beta.mktour.org/info/about"
+        title="о нас и прозрачность"
+      />
+    </div>
+  </div>
+</div>
 
 ---
 layout: center
